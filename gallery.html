@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery - Dev Portfolio Projects">
+    <title>Gallery - Dev Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">DevPortfolio</a></h1>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="gallery" class="fade-in">
+            <div class="container">
+                <h2>Project Gallery</h2>
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="html">HTML/CSS</button>
+                    <button class="filter-btn" data-filter="js">JS</button>
+                </div>
+                <div id="gallery-grid" class="grid">
+                    <figure class="gallery-item" data-category="html">
+                        <img src="images/project1.jpg" alt="Project 1: Responsive Layout">
+                        <figcaption>Project 1: Clean Landing Page</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="js">
+                        <img src="images/project2.jpg" alt="Project 2: Interactive Todo App">
+                        <figcaption>Project 2: Todo App</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="html">
+                        <img src="images/project3.jpg" alt="Project 3: Portfolio Site">
+                        <figcaption>Project 3: Personal Portfolio</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="js">
+                        <img src="images/project4.jpg" alt="Project 4: Weather Dashboard">
+                        <figcaption>Project 4: Weather App</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="html">
+                        <img src="images/project5.jpg" alt="Project 5: E-commerce Mockup">
+                        <figcaption>Project 5: Shop Layout</figcaption>
+                    </figure>
+                    <figure class="gallery-item" data-category="js">
+                        <img src="images/project6.jpg" alt="Project 6: Quiz Game">
+                        <figcaption>Project 6: Interactive Quiz</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DevPortfolio. All rights reserved.</p>
+            <ul>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+        </div>
+        <button id="back-to-top" aria-label="Back to top">↑</button>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

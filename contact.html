@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact - Dev Portfolio Inquiries">
+    <title>Contact - Dev Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">DevPortfolio</a></h1>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="contact-form" class="fade-in">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form id="inquiry-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <label for="service">Interested In:</label>
+                    <select id="service">
+                        <option value="web-design">Web Design</option>
+                        <option value="js-app">JavaScript App</option>
+                        <option value="consultation">Consultation</option>
+                    </select>
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="5" required></textarea>
+                    <button type="submit">Submit Inquiry</button>
+                </form>
+                <div class="contact-info">
+                    <p>Email: hello@devportfolio.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DevPortfolio. All rights reserved.</p>
+            <ul>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+            </ul>
+        </div>
+        <button id="back-to-top" aria-label="Back to top">↑</button>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
